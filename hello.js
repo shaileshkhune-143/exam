@@ -1,0 +1,6 @@
+var http=require('require');
+http.createServer(function(req,res){
+res.write('hello world');
+res.end();
+}).listen(7777);
+
